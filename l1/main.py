@@ -1,4 +1,4 @@
-from l1 import order.py
+from l1 import order
 
 from l1 import calc
 
