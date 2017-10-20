@@ -1,7 +1,6 @@
 def execute(filepath):
     with open(filepath) as f:
         lines = [line.rstrip('\n') for line in f]
-        print(lines)
         n = 0
         m = 0
         second = False
@@ -28,4 +27,6 @@ def execute(filepath):
                     temp = x.split()
                     z[m] = temp
             n = n + 1
+        print (y)
+        print (z)
         return y, z
